@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+.had-contact{
+    display: grid;
+    place-content: center;
+    
+  
+}
+.main-contact{
+   
+  margin-left: 20px;
+  margin-right: 20px;
+
+   
+}
+.main-cover{
+    background-color: blue;
+}
+
+  
+
+.form-group{
+    
+    width: 600px;
+    margin: 20px 0;
+
+}
+.form-group input{
+    width: 80%;
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+.form-group textarea{
+    border: none;
+    outline: none;
+    width: 80%;
+    resize: none;
+    padding: 20px;
+}
+#btn{
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(250, 150, 150);
+    color: azure;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+}
+#btn:hover{
+    background-color: blueviolet;
+
+}
+@media (max-width: 480px) {
+    .form-group {
+        width: 100%; 
+        margin: 10px 0;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%; 
+        font-size: 0.9em; 
+    }
+
+    #btn {
+        width: 70%; 
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+.hero-had{
+    width: 100%;
+    display: flex;
+    
+   
+}
+.conatiner{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.main{
+    
+    display: flex;
+   height: 300px;
+   align-items: center;
+   justify-content: space-between;
+  
+   
+    
+}
+.img{
+    margin-right: 70px;
+}
+.text-had{
+    width: 70%;
+    margin: 70px;
+    
+}
+.text-had p {
+    font-size: 25px;
+    margin-top: 8px;
+    
+}
+.button{
+    background-color: palevioletred; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease 
+}
+.button:hover {
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column; 
+        gap: 30px; 
+    }
+
+    .text-had {
+        width: 90%; 
+        margin: 20px auto; 
+    }
+
+    .text-had p {
+        font-size: 20px; 
+    }
+
+    .img {
+        margin-right: 0; 
+    }
+}
+
+/* For Mobile Screens */
+@media (max-width: 480px) {
+    .text-had {
+        width: 100%; 
+        margin: 10px auto; 
+    }
+
+    .text-had p {
+        font-size: 18px; 
+    }
+
+    .button {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+}
